@@ -22,7 +22,7 @@ select {
 }
 
 .container {
-  max-width: 600px;
+  max-width: 500px;
   background-color: white;
   display: block;
   margin: 60px auto 20px;
@@ -38,8 +38,12 @@ select {
   border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
 }
 
+.cities:last-child {
+  border: none;
+}
+
 .time {
-  font-size: 48px;
+  font-size: 42px;
   font-weight: bold;
   padding-top: 35px;
 }
