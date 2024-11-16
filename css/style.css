@@ -1,7 +1,53 @@
+body {
+  background-color: #f9f7fe;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
 h1 {
   text-align: center;
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 28px;
+}
+
+select {
+  display: block;
+  width: 100%;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 40px 0;
+  font-size: 14px;
+}
+
+.container {
+  max-width: 600px;
+  background-color: white;
+  display: block;
+  margin: 60px auto 20px;
+  border-radius: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 20px;
+}
+.cities {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 0 30px;
+  line-height: 10px;
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
+}
+
+.time {
+  font-size: 48px;
+  font-weight: bold;
+  padding-top: 35px;
+}
+.date {
+  color: rgba(100, 100, 111, 0.7);
 }
 
 footer {
   text-align: center;
+  color: rgba(100, 100, 111, 0.7);
 }
