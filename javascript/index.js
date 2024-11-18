@@ -17,6 +17,15 @@ function updateTime() {
     newYorkDateElement.innerHTML = newYorkTime.format("Do MMMM YYYY");
     newYorkTimeElement.innerHTML = newYorkTime.format("H:mm:ss");
   }
+  let cairoElement = document.querySelector("#cairo");
+  if (cairoElement) {
+    let cairoDateElement = cairoElement.querySelector(".date");
+    let cairoTimeElement = cairoElement.querySelector(".time");
+    let cairoTime = moment().tz("Africa/Cairo");
+
+    cairoDateElement.innerHTML = cairoTime.format("Do MMMM YYYY");
+    cairoTimeElement.innerHTML = cairoTime.format("H:mm:ss");
+  }
 }
 
 function updateCity(event) {
